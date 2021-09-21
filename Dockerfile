@@ -8,5 +8,6 @@ ENV LANG 'C.UTF-8'
 ENV CI 1
 
 ADD manager.py .
+ADD dependencies.json .
 
 RUN python manager.py
