@@ -7,6 +7,6 @@ ENV DEBIAN_FRONTEND noninteractive
 ENV LANG 'C.UTF-8'
 ENV CI 1
 
-ADD builder.py .
+ADD manager.py .
 
-RUN python builder.py
+RUN python manager.py
