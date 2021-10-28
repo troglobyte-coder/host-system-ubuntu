@@ -26,7 +26,7 @@ RUN apt-get update --fix-missing && apt-get dist-upgrade -y \
 
 RUN pip3 -q install --upgrade pip \
     && python3 -m pip -q install \
-       meson==0.59.0 \
+       meson==0.60.0 \
        scan-build==2.0.19 \
        ninja==1.10.2 \
        cmake==3.21.2 \
