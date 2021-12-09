@@ -22,6 +22,7 @@ RUN apt-get update --fix-missing && apt-get dist-upgrade -y \
        git \
        ccache \
        cppcheck \
+       libgl1-mesa-dev \
     && rm -rf /var/lib/apt/lists/*
 
 RUN pip3 -q install --upgrade pip \
