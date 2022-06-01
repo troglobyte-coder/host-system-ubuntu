@@ -15,6 +15,5 @@ they use fewer resources than virtual machines.
 
 * * *
 
-You may find that I have a number of ways that you can contact
-me. All of these methods happen to be listed on my blog
-[Mike's Visual Cube](https://mikebrockus.code.blog/contact-us/).
+You may find that I have some social media platforms
+in which you can follow me. [LinkedIn](https://www.linkedin.com/in/michael-brockus), [Facebook](https://facebook.com/michael.brockus.555), and [Instagram](https://instagram.com/troglobyte_coder/)
