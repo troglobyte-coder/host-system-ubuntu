@@ -1,7 +1,7 @@
 #
 # host system for DevOps work
 #
-FROM ubuntu:20.04 AS dummy
+FROM ubuntu:22.04 AS dummy
 
 ENV DEBIAN_FRONTEND noninteractive
 ENV LANG 'C.UTF-8'
