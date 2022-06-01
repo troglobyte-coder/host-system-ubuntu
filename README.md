@@ -1,6 +1,6 @@
 # host-system-ubuntu
-Ubuntu host system image for platform test.
-This repository is a representation of an Ubuntu 20.04 LTS host system.
+
+## Overview
 
 Docker is a set of platform as a service **(PaaS)** products that use
 OS-level virtualization to deliver software in packages called
