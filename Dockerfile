@@ -21,6 +21,9 @@ RUN apt-get update --fix-missing && apt-get dist-upgrade -y \
        ccache \
        cppcheck \
        libgl1-mesa-dev \
+       ibsdl2-2.0 \
+       libncurses5-dev \
+       libncursesw5-dev \
     && rm -rf /var/lib/apt/lists/*
 
 RUN pip3 -q install --upgrade pip \
