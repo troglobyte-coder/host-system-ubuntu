@@ -21,7 +21,7 @@ RUN apt-get update --fix-missing && apt-get dist-upgrade -y \
        ccache \
        cppcheck \
        libgl1-mesa-dev \
-       ibsdl2-2.0 \
+       libgtk-4-dev \
        libncurses5-dev \
        libncursesw5-dev \
     && rm -rf /var/lib/apt/lists/*
