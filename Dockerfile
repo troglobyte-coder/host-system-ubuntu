@@ -10,6 +10,7 @@ ENV CI 1
 RUN apt-get update --fix-missing && apt-get dist-upgrade -y \
     && apt-get -y install \
        apt-utils \
+       wget \
        python3 \
        python3-pip \
        python3-wheel \
