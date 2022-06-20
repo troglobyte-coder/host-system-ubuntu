@@ -21,6 +21,8 @@ RUN apt-get update --fix-missing && apt-get dist-upgrade -y \
        git \
        ccache \
        cppcheck \
+       libncurses5-dev \
+       libncursesw5-dev \
        && rm -rf /var/lib/apt/lists/*
 
 RUN snap install dmd --classic
