@@ -23,7 +23,7 @@ RUN apt-get update --fix-missing && apt-get dist-upgrade -y \
        cppcheck \
        && rm -rf /var/lib/apt/lists/*
 
-RUN sudo snap install dmd --classic
+RUN snap install dmd --classic
 
 RUN pip3 -q install --upgrade pip \
     && python3 -m pip -q install \
