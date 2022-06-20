@@ -15,12 +15,15 @@ RUN apt-get update --fix-missing && apt-get dist-upgrade -y \
        python3-wheel \
        python3-setuptools \
        pkg-config \
+       snapd \
        gcc-10 \
        g++-10 \
        git \
        ccache \
        cppcheck \
-    && rm -rf /var/lib/apt/lists/*
+       && rm -rf /var/lib/apt/lists/*
+
+RUN sudo snap install dmd --classic
 
 RUN pip3 -q install --upgrade pip \
     && python3 -m pip -q install \
