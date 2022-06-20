@@ -15,7 +15,6 @@ RUN apt-get update --fix-missing && apt-get dist-upgrade -y \
        python3-wheel \
        python3-setuptools \
        pkg-config \
-       snapd \
        gcc-10 \
        g++-10 \
        git \
@@ -25,7 +24,9 @@ RUN apt-get update --fix-missing && apt-get dist-upgrade -y \
        libncursesw5-dev \
        && rm -rf /var/lib/apt/lists/*
 
-RUN snap install dmd --classic
+RUN wget http://master.dl.sourceforge.net/project/d-apt/files/d-apt.list -O /etc/apt/sources.list.d/d-apt.list && \
+    wget -qO - https://dlang.org/d-keyring.gpg | sudo apt-key add - && \
+    apt-get install dmd-bin
 
 RUN pip3 -q install --upgrade pip \
     && python3 -m pip -q install \
