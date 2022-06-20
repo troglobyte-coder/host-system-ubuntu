@@ -11,8 +11,8 @@ ENV LANG 'C.UTF-8'
 ENV CI 1
 
 # setting compiler env vars
-ENV CC ccache gcc
-ENV CXX ccache g++
+ENV CC ccache clang
+ENV CXX ccache clang++
 ENV DC gdc
 
 FROM dummy AS getter
@@ -22,8 +22,7 @@ RUN apt-get update --fix-missing && apt-get dist-upgrade -y \
        apt-utils \
        python3 \
        python3-pip \
-       gcc-10 \
-       g++-10 \
+       clang-12 \
        gdc \
        ccache \
        cppcheck \
