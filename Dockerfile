@@ -12,7 +12,7 @@ ENV CI 1
 
 # setting compiler env vars
 ENV CC ccache clang
-ENV CXX ccache clang++
+ENV CXX ccache clang
 ENV DC gdc
 
 FROM dummy AS getter
