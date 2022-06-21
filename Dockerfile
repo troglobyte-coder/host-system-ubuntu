@@ -22,7 +22,7 @@ RUN apt-get update --fix-missing && apt-get dist-upgrade -y \
        apt-utils \
        python3 \
        python3-pip \
-       clang \
+       llvm \
        gdc \
        ccache \
        cppcheck \
