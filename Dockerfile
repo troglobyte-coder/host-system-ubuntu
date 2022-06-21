@@ -23,6 +23,7 @@ RUN apt-get update --fix-missing && apt-get dist-upgrade -y \
        python3 \
        python3-pip \
        libclang-dev \
+       clang \
        llvm \
        gdc \
        dub \
