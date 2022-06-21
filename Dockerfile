@@ -25,6 +25,7 @@ RUN apt-get update --fix-missing && apt-get dist-upgrade -y \
        llvm \
        gdc \
        dub \
+       git \
        ccache \
        cppcheck \
        libncurses5-dev \
