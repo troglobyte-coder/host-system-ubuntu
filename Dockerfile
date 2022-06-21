@@ -24,6 +24,7 @@ RUN apt-get update --fix-missing && apt-get dist-upgrade -y \
        python3-pip \
        llvm \
        gdc \
+       dub \
        ccache \
        cppcheck \
        libncurses5-dev \
